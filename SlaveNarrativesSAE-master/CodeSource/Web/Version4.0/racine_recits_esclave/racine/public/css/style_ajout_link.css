@@ -1,0 +1,112 @@
+/* Styles généraux de la page */
+body {
+    background-color: #faf3e0;
+    font-family: Arial, sans-serif;
+}
+
+#page {
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: flex-start; /* Alignement en haut */
+    width: 100%; /* Largeur totale de la page */
+    max-width: 800px; /* Largeur maximale des formulaires (ajustez selon vos besoins) */
+    margin: 50px auto; /* Centre horizontalement les éléments */
+    gap: 20px; /* Espacement entre les formulaires */
+    padding: 20px;
+    background-color: #fdf6e3; 
+    border: 1px solid #f7e1b5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Styles des formulaires */
+.form {
+    width: 100%;
+    padding: 20px;
+    background-color: #fdf6e3;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Styles des titres h2 */
+h2 {
+    color: #755f44;
+    margin-bottom: 20px;
+}
+
+/* Styles des labels et inputs */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #755f44;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d9cec0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Styles des boutons */
+button {
+    background-color: #b38e5d;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #9a6c43;
+}
+
+/* Styles du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #d9cec0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #b38e5d;
+    color: #ffffff;
+}
+
+td button {
+    background-color: #d9cec0;
+    color: #755f44;
+}
+
+td button:hover {
+    background-color: #c4b8a9;
+}
+
+.retour {
+    text-decoration: none;
+    background-color: #b38e5d;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.retour:hover {
+    background-color: #9a6c43;
+    color: #ffffff;
+}
+
+.retour:active{
+    background-color: #533a21;
+}

@@ -1,0 +1,128 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f4e9d8;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.login-container {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #8a6d3b;
+    background-color: #fdfdcb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+.poly-container {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #8a6d3b;
+    background-color: #fdfdcb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.map-container {
+    flex: 2;
+}
+
+h2 {
+    text-align: center;
+    color: #8a6d3b;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.display {
+    table-layout: fixed;
+    width: 150px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8a6d3b;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8a6d3b;
+    background-color: #fdfdcb;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8a6d3b;
+    background-color: #fdfdcb;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8a6d3b;
+    background-color: #fdfdcb;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #8a6d3b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d4c2a;
+}
+
+.scrollable-table {
+    max-height: 250px; /* Hauteur maximale de la table avec barre de défilement */
+    overflow-y: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+    scrollbar-width: thick; /* Épaisseur de la barre de défilement */
+}
+
+/* Largeur de la table à 100% pour s'adapter au conteneur */
+#exa {
+    width: 100%;
+}
+
+#mappoint {
+    width: 60%;
+    height: 540px;
+}
+
+.retour {
+    text-decoration: none;
+    background-color: #8a6d3b;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.retour:hover {
+    background-color: #6d4c2a;
+    color: rgb(0, 0, 0);
+}
+
+.retour:active{
+    background-color: #533a21;
+}
+
+#map {
+    width: 100%;
+    height: 630px;
+}

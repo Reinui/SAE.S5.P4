@@ -1,0 +1,224 @@
+ERROR - 2023-10-06 11:04:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-10-06 11:04:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Map->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+ERROR - 2023-10-06 11:05:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-10-06 11:05:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Map->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+ERROR - 2023-10-06 11:05:49 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-10-06 11:05:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Map->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+INFO - 2023-10-06 11:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 11:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 11:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 11:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 11:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 11:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 11:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 11:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 11:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-06 11:44:16 --> mysqli_sql_exception: Table 'databasetest.points' doesn't exist in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-06 11:44:16 --> Table 'databasetest.points' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Map->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+INFO - 2023-10-06 11:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-06 12:58:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#3 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#6 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/app/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+#7 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#8 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /home/james/Bureau/SlaveNarrativesSAE-1/CodeSource/Web/Version3/racine_recit_resclave/racine/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-10-06 12:58:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Map.php(79): App\Models\ModelMap->getPoints()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Map->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+INFO - 2023-10-06 13:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 13:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

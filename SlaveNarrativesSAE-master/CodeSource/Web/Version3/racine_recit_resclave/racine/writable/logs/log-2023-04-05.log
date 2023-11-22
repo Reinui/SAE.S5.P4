@@ -1,0 +1,117 @@
+ERROR - 2023-04-05 15:07:40 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /public_html/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /public_html/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /public_html/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /public_html/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#7 /public_html/app/Controllers/Map.php(91): App\Models\ModelMap->getPoints()
+#8 /public_html/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#9 /public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /public_html/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /public_html/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#3 /public_html/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 /public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /public_html/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#6 /public_html/app/Controllers/Map.php(91): App\Models\ModelMap->getPoints()
+#7 /public_html/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#8 /public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-05 15:07:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Map.php(91): App\Models\ModelMap->getPoints()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Map->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 15:08:25 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /public_html/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /public_html/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /public_html/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /public_html/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /public_html/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /public_html/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#7 /public_html/app/Controllers/Map.php(91): App\Models\ModelMap->getPoints()
+#8 /public_html/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#9 /public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /public_html/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /public_html/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /public_html/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#3 /public_html/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 /public_html/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /public_html/app/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+#6 /public_html/app/Controllers/Map.php(91): App\Models\ModelMap->getPoints()
+#7 /public_html/system/CodeIgniter.php(934): App\Controllers\Map->index()
+#8 /public_html/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /public_html/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-05 15:08:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/ModelMap.php(19): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Map.php(91): App\Models\ModelMap->getPoints()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Map->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-05 15:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-05 15:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-05 15:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-05 15:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-05 15:14:42 --> syntax error, unexpected identifier "index", expecting ")"
+in APPPATH/Config/Routes.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 15:14:57 --> syntax error, unexpected identifier "index", expecting ")"
+in APPPATH/Config/Routes.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 15:14:59 --> syntax error, unexpected identifier "index", expecting ")"
+in APPPATH/Config/Routes.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 15:15:18 --> syntax error, unexpected single-quoted string ", [Map::class, ", expecting "]"
+in APPPATH/Config/Routes.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-05 15:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-05 15:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-05 15:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,353 @@
+INFO - 2023-09-21 11:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 11:13:09 --> Unsupported operand types: string + array
+in APPPATH\Views\resclaves\ajout_point.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/ajout_point', [], true)
+ 4 APPPATH\Controllers\Ajout.php(16): view('resclaves/ajout_point', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:14:16 --> Undefined variable $elt
+in APPPATH\Views\resclaves\ajout_point.php on line 40.
+ 1 APPPATH\Views\resclaves\ajout_point.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $elt', 'APPPATH\\Views\\resclaves\\ajout_point.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(16): view('resclaves/ajout_point', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:14:27 --> Array to string conversion
+in APPPATH\Views\resclaves\ajout_point.php on line 41.
+ 1 APPPATH\Views\resclaves\ajout_point.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\resclaves\\ajout_point.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(16): view('resclaves/ajout_point', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:15:10 --> Undefined array key 2
+in APPPATH\Views\resclaves\ajout_point.php on line 41.
+ 1 APPPATH\Views\resclaves\ajout_point.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\resclaves\\ajout_point.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(16): view('resclaves/ajout_point', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:15:29 --> Undefined array key 1
+in APPPATH\Views\resclaves\ajout_point.php on line 41.
+ 1 APPPATH\Views\resclaves\ajout_point.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Views\\resclaves\\ajout_point.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(16): view('resclaves/ajout_point', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:16:01 --> Array to string conversion
+in APPPATH\Views\resclaves\ajout_point.php on line 41.
+ 1 APPPATH\Views\resclaves\ajout_point.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\resclaves\\ajout_point.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(16): view('resclaves/ajout_point', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-09-21 11:27:03 --> mysqli_sql_exception: Table 'databasetest.id_recit' doesn't exist in C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\romai\Desktop\racine\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\romai\Desktop\racine\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\romai\Desktop\racine\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\romai\Desktop\racine\app\Models\ModelRecit.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\romai\Desktop\racine\app\Controllers\Ajout.php(13): App\Models\ModelRecit->getRecit()
+#8 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(934): App\Controllers\Ajout->point()
+#9 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+#10 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\romai\Desktop\racine\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\romai\Desktop\racine\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\romai\\...')
+#13 {main}
+CRITICAL - 2023-09-21 11:27:03 --> Table 'databasetest.id_recit' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tab_recits_v3`
+JOIN `id_recit` USING (`titre`)', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelRecit.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Ajout.php(13): App\Models\ModelRecit->getRecit()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-09-21 11:27:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`titre`)' at line 3 in C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\romai\Desktop\racine\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\romai\Desktop\racine\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\romai\Desktop\racine\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\romai\Desktop\racine\app\Models\ModelRecit.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\romai\Desktop\racine\app\Controllers\Ajout.php(13): App\Models\ModelRecit->getRecit()
+#8 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(934): App\Controllers\Ajout->point()
+#9 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+#10 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\romai\Desktop\racine\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\romai\Desktop\racine\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\romai\\...')
+#13 {main}
+CRITICAL - 2023-09-21 11:27:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`titre`)' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tab_recits_v3`
+JOIN `tab_recits_v3`.`id_recit` USING (`tab_recits_v3`.`titre`)', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelRecit.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Ajout.php(13): App\Models\ModelRecit->getRecit()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:32:11 --> Call to a member function getRecit() on null
+in APPPATH\Controllers\Ajout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:32:52 --> Call to a member function getRecit() on null
+in APPPATH\Controllers\Ajout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:34:48 --> Call to a member function getRecit() on null
+in APPPATH\Controllers\Ajout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:35:45 --> Call to a member function getRecit() on null
+in APPPATH\Controllers\Ajout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-09-21 11:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 11:37:05 --> Call to a member function getRecit() on null
+in APPPATH\Controllers\Ajout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:43:15 --> Call to a member function getRecit() on null
+in APPPATH\Controllers\Ajout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:55:00 --> Call to a member function getRecit() on null
+in APPPATH\Controllers\Ajout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 11:55:14 --> Call to a member function getRecit() on null
+in APPPATH\Controllers\Ajout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->point()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-09-21 12:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 12:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 12:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 12:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 12:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 12:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 22:12:42 --> Undefined array key "coord"
+in APPPATH\Views\resclaves\trait_ajout_point.php on line 4.
+ 1 APPPATH\Views\resclaves\trait_ajout_point.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coord"', 'APPPATH\\Views\\resclaves\\trait_ajout_point.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\trait_ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 22:15:30 --> Undefined variable $coord
+in APPPATH\Views\resclaves\trait_ajout_point.php on line 14.
+ 1 APPPATH\Views\resclaves\trait_ajout_point.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $coord', 'APPPATH\\Views\\resclaves\\trait_ajout_point.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\trait_ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-09-21 22:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 22:58:20 --> Undefined variable $licoord
+in APPPATH\Views\resclaves\trait_ajout_point.php on line 15.
+ 1 APPPATH\Views\resclaves\trait_ajout_point.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $licoord', 'APPPATH\\Views\\resclaves\\trait_ajout_point.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\trait_ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 22:58:46 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\resclaves\trait_ajout_point.php on line 22.
+ 1 APPPATH\Views\resclaves\trait_ajout_point.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'APPPATH\\Views\\resclaves\\trait_ajout_point.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\trait_ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 23:01:21 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\resclaves\trait_ajout_point.php on line 23.
+ 1 APPPATH\Views\resclaves\trait_ajout_point.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'APPPATH\\Views\\resclaves\\trait_ajout_point.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\trait_ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-21 23:05:34 --> syntax error, unexpected variable "$db"
+in APPPATH\Views\resclaves\trait_ajout_point.php on line 24.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 3 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-09-21 23:05:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2.996772592352128),test,points_R51_pt_born,777,51,born,{\"type\": \"Point\", ...' at line 1 in C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO poi...', 0)
+#1 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO poi...')
+#2 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO poi...')
+#3 C:\Users\romai\Desktop\racine\app\Views\resclaves\trait_ajout_point.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO poi...')
+#4 C:\Users\romai\Desktop\racine\system\View\View.php(213): include('C:\\Users\\romai\\...')
+#5 C:\Users\romai\Desktop\racine\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\romai\Desktop\racine\system\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait...', Array, true)
+#7 C:\Users\romai\Desktop\racine\app\Controllers\Ajout.php(21): view('resclaves/trait...')
+#8 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+#9 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+#10 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\romai\Desktop\racine\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\romai\Desktop\racine\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\romai\\...')
+#13 {main}
+CRITICAL - 2023-09-21 23:05:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2.996772592352128),test,points_R51_pt_born,777,51,born,{\"type\": \"Point\", ...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Views\resclaves\trait_ajout_point.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO points (`WKT`, `ville`, `layer`, `id_recit`, `type`, `geoj`) VALUES (POINT (48.506174346966176  2.996772592352128),test,points_R51_pt_born,777,51,born,{\\"type\\": \\"Point\\", \\"coordinates\\": [48.506174346966176,  2.996772592352128]})')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\trait_ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-09-21 23:10:49 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\romai\Desktop\racine\app\Views\resclaves\trait_ajout_point.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...')
+#4 C:\Users\romai\Desktop\racine\system\View\View.php(213): include('C:\\Users\\romai\\...')
+#5 C:\Users\romai\Desktop\racine\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\romai\Desktop\racine\system\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait...', Array, true)
+#7 C:\Users\romai\Desktop\racine\app\Controllers\Ajout.php(21): view('resclaves/trait...')
+#8 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+#9 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+#10 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\romai\Desktop\racine\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\romai\Desktop\racine\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\romai\\...')
+#13 {main}
+CRITICAL - 2023-09-21 23:10:49 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Views\resclaves\trait_ajout_point.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `points` (`WKT`, `ville`, `layer`, `id_recit`, `type`, `geoj`) VALUES (\'POINT (48.506174346966176  2.996772592352128)\',\'test\',\'points_R51_pt_born\',777,\'51\',\'born\',\'{\\"type\\": \\"Point\\", \\"coordinates\\": [48.506174346966176,  2.996772592352128]}\')')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\trait_ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-09-21 23:15:02 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\romai\Desktop\racine\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\romai\Desktop\racine\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\romai\Desktop\racine\app\Views\resclaves\trait_ajout_point.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...')
+#4 C:\Users\romai\Desktop\racine\system\View\View.php(213): include('C:\\Users\\romai\\...')
+#5 C:\Users\romai\Desktop\racine\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\romai\Desktop\racine\system\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait...', Array, true)
+#7 C:\Users\romai\Desktop\racine\app\Controllers\Ajout.php(21): view('resclaves/trait...')
+#8 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+#9 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+#10 C:\Users\romai\Desktop\racine\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\romai\Desktop\racine\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\romai\Desktop\racine\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\romai\\...')
+#13 {main}
+CRITICAL - 2023-09-21 23:15:02 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Views\resclaves\trait_ajout_point.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `points` (`WKT`, `ville`, `layer`, `id_recit`, `type`, `geoj`) VALUES (\'POINT (48.506174346966176  2.996772592352128)\',\'test\',\'points_R51_pt_born\',777,\'51\',\'born\',\'{\\"type\\": \\"Point\\", \\"coordinates\\": [48.506174346966176,  2.996772592352128]}\')')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\resclaves\\trait_ajout_point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('resclaves/trait_ajout_point', [], true)
+ 5 APPPATH\Controllers\Ajout.php(21): view('resclaves/trait_ajout_point')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajout->traitement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

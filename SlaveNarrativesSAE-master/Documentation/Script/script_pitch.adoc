@@ -1,0 +1,33 @@
+Script du pitch de présentation
+------------------------------
+
+
+Intro
+~~~~~~
+Bonjour, nous allons aujourd'hui vous faire un pitch vidéo pour vous présenter toutes les améliorations qui ont eu lieu sur votre site. +
+Mais voici d'abord l'équipe qui a réalisé ces modifications: +
+Tout d'abord, les étudiants initiaux, en premier lieu Romain Massip, Teddy Babel, et enfin Yanis Moiny. +
+Puis, il y a les alternants qui nous ont aidés durant deux semaines sur le site lors de leur présence à l'IUT: +
+James Grasser, Nicolas Sacilotto, Jordan Quinveros, et enfin Quentin Guilhamassé.
+
+Présentation du contexte
+~~~~~~~~~~~~~~~~~~~~~~~~
+Nous allons maintenant vous présenter le contexte de ce projet. +
+Il s'agit d'une SAE mise en place par l'IUT, un projet où nous sommes en autonomie pour nous occuper de toutes les parties importantes, avec des professeurs présents pour répondre à nos questions sans pour autant nous donner la solution. +
+Nous avons décidé de prendre pour cette SAE le projet Slave narrative de Marie-Pierre Baduel, car le sujet nous paraissait très intéressant et nous souhaitions pouvoir l'aider à finir le back office du site.
+
+Comparaison avec la version actuelle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Maintenant, nous allons pouvoir vous montrer la version actuelle du site après nos modifications. +
+Premièrement, nous pouvons remarquer la possibilité de changer la langue d'anglais à français qui est présente et fonctionnelle sur tout le site, remplaçant par exemple sur la page À propos le dédoublement du texte avec simplement le texte anglais remplacé par le texte français et vice versa. +
+La page contact a aussi été créée et est maintenant fonctionnelle, envoyant un mail à la bonne adresse alors qu'auparavant celle-ci était vide. +
+La liste des récits a aussi été améliorée avec une barre de recherche et une option de tri par différentes options. +
+Sur la fiche récit se trouve maintenant dans l'historiographie une option de trouver les références citées dans le texte grâce à une bibliothèque Zotero publique. +
+Si nous cliquons sur le nouveau bouton Menu de gestion sur la page d'accueil, il y a une option de connexion. Après connexion, nous arrivons sur le site administrateur où nous pouvons tout de suite remarquer l'ajout de l'onglet statistiques. En cliquant dessus, nous pouvons voir la fréquence de visites de certaines pages, le nombre de visites par mois, par année, et par jour. +
+Dans la liste des récits, nous pouvons maintenant voir les options pour modifier ou supprimer un récit. Sur la carte interactive, nous pouvons cliquer sur un point pour pouvoir le modifier ou supprimer, et si nous retournons sur le bouton Menu admin, nous observons les nombreuses fonctionnalités ajoutées: la création d'un nouveau compte administrateur, l'ajout d'un point, d'un récit, d'un polygone, d'un auteur ainsi que la modification ou suppression d'auteur et évidemment l'option de se déconnecter.
+
+Conclusion
+~~~~~~~~~~
+En conclusion, sur cette SAE nous avons réalisé un grand nombre d'avancements sur le site, autant que dans nos capacités individuelles et collectives. +
+ous avons créé et ajouté un grand nombre de fonctionnalités au site qui nous a été fourni, conformément aux demandes de notre cliente, tout en restant à l'écoute de chaque nouvelle demande ou idée qui a été proposée lors de nos réunions hebdomadaires. Au final, nous avons créé toute la partie back office du site et donc un CRUD (create, read, update, delete) : nous avons créé les possibilités d'ajouter, supprimer ou modifier les points sur la carte du site, les esclaves et les récits, tout en faisant attention à supprimer tout ce qui leur était relié si ceux-ci venaient à être supprimés, et enfin les territoires. +
+Merci de nous avoir fait confiance avec votre site tout au long de ce projet.

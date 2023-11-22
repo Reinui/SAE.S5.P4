@@ -1,0 +1,162 @@
+= S5.A.01 - Développement avancé
+:icons: font
+:models: models
+:experimental:
+:incremental:
+:toc: macro
+:toclevels: 3
+:toc-title: Table des matières
+:window: _blank
+:correction!:
+
+// Useful definitions
+:asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]
+:icongit: icon:git[]
+:git: http://git-scm.com/[{icongit}]
+:plantuml: https://plantuml.com/fr/[plantUML]
+:vscode: https://code.visualstudio.com/[VS Code]
+
+ifndef::env-github[:icons: font]
+// Specific to GitHub
+ifdef::env-github[]
+:correction:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:icongit: Git
+endif::[]
+
+// Tags
+image:https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg[License: MPL-2.0, link="https://opensource.org/licenses/MPL-2.0"]
+//---------------------------------------------------------------
+
+toc::[]
+
+== Equipe
+
+Projet réalisé par : 
+
+=== Elève formation initiale
+
+- https://github.com/Aestraa[MOINY Yanis]
+- https://github.com/RMassip[MASSIP Romain] 
+- https://github.com/Ted971[BABEL Teddy]
+- https://github.com/Alexandre3131[+++<del>+++BENACHIR Alexandre+++</del>+++]
+
+=== Elève formation alternance
+
+- https://github.com/Darknxss[GRASSER James]
+- https://github.com/EternalNico[SACILOTTO Nicolas]
+- https://github.com/jordanQuin[QUINVEROS Jordan] 
+- https://github.com/Guilhamasse[GUILHAMASSÉ Quentin]
+
+Cliente:: mailto:marie-pierre.baduel@univ-tlse2.fr[MPB]
+
+== Réalisations
+
+TIP: Vous trouverez ici toutes les informations nécessaires pour utiliser notre application ou site web, y compris comment y accéder, où trouver les documents, etc.
+
+WARNING: Le contenu de ce dépôt et de ce ReadMe changeront tout au long de la durée du projet 
+    
+=== Site web 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `SITE WEB DÉPART` | https://slave-narratives.univ-tlse2.fr/[Lien vers le site web] | Site web donné au départ du projet
+| `SITE WEB ACTUEL` | https://slavenarrativessae.000webhostapp.com/[Lien vers le site web] | Site web actuel du projet
+|===
+
+==== Documentation utilisateur 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `DOCUMENTATION UTILISATEUR (pdf)` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Utilisateur/DocUtil.pdf[Lien vers la documentation] | Documentation utilisateur en pdf
+|===
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `DOCUMENTATION UTILISATEUR (adoc)` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Utilisateur/DocUtil.adoc[Lien vers la documentation] | Documentation utilisateur en asciiDoc
+|===
+
+==== Documentation technique
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `DOCUMENTATION TECHNIQUE (pdf)` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Technique/DocTech.pdf[Lien vers la documentation] | Documentation technique en pdf
+|===
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `DOCUMENTATION TECHNIQUE (adoc)` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Technique/DocTech.adoc[Lien vers la documentation] | Documentation technique en asciiDoc
+|===
+
+=== Code source du projet (WEB/BD)
+
+==== Dernière version
+
+===== WEB 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Code source WEB V4` | https://github.com/Aestraa/SlaveNarrativesSAE/tree/master/CodeSource/Web/Version4.0/racine_recits_esclave/racine[Lien vers le code source] | Code source partie WEB Version 4
+|===
+
+===== BD
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Code source BD V2` | https://github.com/Aestraa/SlaveNarrativesSAE/tree/master/CodeSource/BD/Version2[Lien vers le code source] | Code source partie BD Version 2
+|===
+
+=== Rapport de projet des alternants 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Rapport de projet de #GRASSER James#` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Rapport/James/GrasserJames3B.pdf[Lien vers le rapport] | Rapport de projet de `GRASSER James`
+| `Rapport de projet de #SACILOTTO Nicolas#` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Rapport/Nicolas/Nicolas_Sacilotto_Rapport%20Davancement%20SAE%20S5.pdf[Lien vers le rapport] | Rapport de projet de `SACILOTTO Nicolas`
+| `Rapport de projet de #QUINVEROS Jordan#` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Rapport/Jordan/JordanQuinveros3B.pdf[Lien vers le rapport] | Rapport de projet de `QUINVEROS Jordan`
+| `Rapport de projet de #GUILHAMASSÉ Quentin#` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Rapport/Quentin/GuilhamasseQuentin3B.pdf[Lien vers le rapport] | Rapport de projet de `GUILHAMASSÉ Quentin`
+|===
+
+=== Video de présentation du projet 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Video de présentation` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Vid%C3%A9oPitch/Pitch%20video%20sae%20slave%20narrative.mp4[Lien vers la vidéo] | Vidéo de présentation du projet
+|===
+
+== Gestion de projet & Qualité      
+
+=== Informations utiles
+
+- `User stories` en cours : image:https://img.shields.io/github/issues/Aestraa/SlaveNarrativesSAE/User%20Story?style=plastic&logo=MUI&logoColor=FFFFFF&label=User%20Stories&color=00CA00[link=https://github.com/Aestraa/SlaveNarrativesSAE/issues?q=is:open+is:issue+label:%22User+Story%22+]
+- `Tâches` en cours : image:https://img.shields.io/github/issues/Aestraa/SlaveNarrativesSAE/T%C3%A2che?style=plastic&logo=Tesla&label=T%C3%A2ches&color=28D5FF[link=https://github.com/Aestraa/SlaveNarrativesSAE/issues?q=is:open+is:issue+label:T%C3%A2che]
+- `Tâches` terminées : image:https://img.shields.io/github/issues-closed/Aestraa/SlaveNarrativesSAE/T%C3%A2che?style=plastic&logo=X&color=red[link=https://github.com/Aestraa/SlaveNarrativesSAE/issues?q=is:issue+is:closed]
+- `User Story` terminées : image:https://img.shields.io/github/issues-closed/Aestraa/SlaveNarrativesSAE/User%20Story?style=plastic&logo=Udacity&color=red[link=https://github.com/Aestraa/SlaveNarrativesSAE/issues?q=is:issue+is:closed+label:%22User+Story%22]
+
+=== Gantt 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Gantt prévisionnel` | https://github.com/Aestraa/SlaveNarrativesSAE/blob/master/Documentation/Gantt/GANTTV1SAE.mpp[Lien vers le gantt] | Gantt prévisionnel à télécharger
+|===
+
+=== Maquette du site 
+
+[cols="1,2,2",options=header]
+|===
+| Nom    | Lien         |  Notes 
+| `Liste Maquette` | https://github.com/Aestraa/SlaveNarrativesSAE/tree/master/Documentation/maquette[Lien vers la liste des maquettes] | Liste des maquettes du site client
+|===
